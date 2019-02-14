@@ -1,0 +1,85 @@
+#top-content {
+    height: 720px;
+    color: #a75c2e;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background: url(/assets/images/ferret.png) center no-repeat;
+}
+
+#top-card {
+    background: #4c6a3e;
+    box-shadow: 0 0 0 10px #4c6a3e;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 500px;
+    bottom: 15px;
+    position: absolute;
+    right: 15px;
+    padding: 15px;
+}
+
+#cards {
+    position: relative;
+    display: flex;
+    height: 960px;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    background: url(/assets/images/chipmunk.png) center no-repeat;
+    padding-top: 15px;
+}
+
+.cards {
+    height: 420px;
+    width: 370px;
+    background-color: #fff;
+    position: absolute;
+    padding: 20px;
+    border: 2px solid #212529;
+}
+
+#middle-card {
+    left: 360px;
+    top: 150px;
+    z-index: 9001;
+}
+
+#left-card {
+    left: 100px;
+    top: 50px;
+    z-index: 10;
+}
+
+#right-card {
+    right: 100px;
+    top: 50px;
+    z-index: 10;
+}
+
+.hr-divider {
+    border-top: 2px solid #fff;
+    width: 150px;
+    margin: 15px auto ;
+}
+
+.cards .hr-divider {
+    border-top: 2px solid #212529;
+}
+
+.cards button {
+    background: #a75c2e;
+    border: 2px solid #a75c2e;
+    padding: 10px 20px;
+}
+#our-mission {
+    background: #fff;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #4c6a3e;
+    margin-bottom: 15px;
+}
+.opacity {
+    opacity: .3;
+}

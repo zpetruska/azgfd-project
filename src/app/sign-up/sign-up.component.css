@@ -1,0 +1,39 @@
+#sign-up {
+    position: relative;
+    height: 350px;
+    margin-top: 15px;
+    color: #a75c2e;
+    text-align: center;
+    width: 100%;
+    background: url(/assets/images/bird.png) center no-repeat;
+    padding-top: 15px;
+}
+
+#sign-up-form label{
+    display: block;
+}
+
+#sign-up-form #email, #sign-up-form #name {
+    margin: auto;
+    width: 33%;
+}
+
+.newsletter{
+    margin-top: 15px;
+    color: #624c33;
+    display: inline-block !important;
+    margin-bottom: 10px;
+    width: 33%;
+}
+
+#submit-sign-up {
+    background: #a75c2e;
+    border: 2px solid #a75c2e;
+    width: 20%;
+}
+
+.hr-divider {
+    border-top: 2px solid #a75c2e;
+    width: 150px;
+    margin: 15px auto ;
+}

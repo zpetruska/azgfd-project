@@ -1,0 +1,23 @@
+<div id="sign-up">
+    <form id="sign-up-form" (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="hr-divider">
+        </div>
+        <h2>Stay in touch</h2>
+        <div class="hr-divider"></div>
+        <label for="name">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter full name" required
+                   ngModel>
+        </label>
+        <label for="email">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required
+                   ngModel>
+        </label>
+        <div>
+        <label for="newsletter-checkbox" class="newsletter">
+            <input id="newsletter-checkbox"  type="checkbox" name="newsletter" ngModel>
+            Yes, I want to sign up to receive e-newsletters from the Arizona Game and Fish Department.
+        </label>
+        </div>
+        <button id="submit-sign-up" type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+</div>
